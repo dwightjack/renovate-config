@@ -5,7 +5,7 @@
     "group:allNonMajor",
     ":automergePatch",
     "helpers:pinGitHubActionDigests",
-    "schedule:earlyMondays"
+    "schedule:monthly"
   ],
   "commitBody": "[skip netlify]"
 }
