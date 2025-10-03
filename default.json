@@ -5,6 +5,7 @@
     "group:allNonMajor",
     ":automergePatch",
     "helpers:pinGitHubActionDigests",
+    "helpers:pinGitHubActionDigestsToSemver",
     "schedule:monthly"
   ],
   "commitBody": "[skip netlify]"
