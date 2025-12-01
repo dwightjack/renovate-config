@@ -6,6 +6,7 @@
     ":automergePatch",
     "helpers:pinGitHubActionDigests",
     "helpers:pinGitHubActionDigestsToSemver",
+    "customManagers:biomeVersions",
     "schedule:monthly"
   ],
   "commitBody": "[skip netlify]"
