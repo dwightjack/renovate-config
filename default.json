@@ -7,7 +7,13 @@
     "helpers:pinGitHubActionDigests",
     "helpers:pinGitHubActionDigestsToSemver",
     "customManagers:biomeVersions",
-    "schedule:monthly"
   ],
+  "schedule": [
+    "before 3am on monday",
+    "before 3am on thursday"
+  ],
+  "minimumReleaseAge": "7 days",
+  "prCreation": "not-pending",
+  "internalChecksFilter": "strict",
   "commitBody": "[skip netlify]"
 }
